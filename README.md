@@ -1,8 +1,13 @@
 # Whatsapp Interactive ChatBoot
-Use this code base to implement a Whatsapp chatboot.  
+Use this code base to implement a Whatsapp chatboot integrated with the CM.com connector.  
+## CM.com
 You need a business account on CM.com: it will provide you a phone number and a KEY. Set up them in *productToken* and *from*.  
-
-Run with maven  
+In this chat boot we use the *Interactive* message type to send a list of options to the user.  
+See more on the official CM documentation: https://www.cm.com/blog/get-started-with-interactive-whatsapp-messages/  
+## Requirements
+SpringBoot 2.5.0 :seedling:  
+Java 21.0.1 :coffee:  
+Run the application with maven :arrow_forward:    
 ### Example of API call
 POST on localhost:8080/conversation  
 ```
